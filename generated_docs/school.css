@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800&display=swap');
+
+@page {
+    size: letter portrait;
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+    margin-bottom: 1cm;
+    margin-top: 2cm;
+    font-family: "Open Sans",sans-serif;
+    
+}
+table {
+    table-layout: fixed;
+  }
+
+div.roster h1 {
+    page-break-before: always;
+    text-align: right;
+    color: #5A5A5A;
+    font-size: 14pt;
+    font-weight: 700;
+
+}
+div.roster h2 {
+    page-break-before: avoid;
+    text-align: right;
+    color: black;
+    font-size:12pt;
+    padding-bottom: 1cm;
+}
+
+div.roster h1,div.roster h2 {
+  page-break-after: avoid;
+        font-family: "Open Sans";
+}
+
+div.roster table {
+    width: 18cm;
+    padding: 0cm;
+    padding-bottom: 0.5cm;
+}
+div.roster table.contact {
+    width: 15.5cm;
+    padding-bottom: 0cm;
+}
+div.roster table, div.roster tr, div.roster td, div.roster th {
+    border: thin;
+    border-collapse: collapse; 
+    font-family: "Open Sans",sans-serif;
+    vertical-align: top;
+}
+
+div.roster th, div.roster th.contact {
+    height: 1cm;
+    font-size: 11pt;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    
+}
+div.roster td, div.roster th {
+    font-size: 11pt;
+    text-align: left;
+}
+
+div.roster td.student, div.roster th.student {
+    width: 4.5cm;
+}
+
+div.roster td.parents, div.roster th.parents{
+    width: 7cm;
+}
+
+div.roster td.phone, div.roster th.phone{
+    width: 3cm;
+}
+
+div.roster td.email, div.roster th.email{
+    width: 5.5cm;
+}
+
+/* ******************************************************************** */
+/* ******************************************************************** */
+/* ******************************************************************** */
+
+div.schedule h1 {
+    page-break-before: always;
+    text-align: right;
+    color: #5A5A5A;
+    font-size: 14pt;
+    font-weight: 700;
+
+}
+div.schedule h2 {
+    page-break-before: avoid;
+    text-align: right;
+    color: black;
+    font-size:12pt;
+    padding-bottom: 1cm;
+}
+
+div.schedule h1,div.schedule h2 {
+  page-break-after: avoid;
+        font-family: "Open Sans";
+}
+
+div.schedule table {
+    width: 18cm;
+    padding: 1.5cm;
+    padding-bottom: 0.5cm;
+}
+
+div.schedule table, div.schedule tr, div.schedule td, div.schedule th {
+    border: none;
+    border-collapse: collapse; 
+    font-family: "Open Sans",sans-serif;
+    vertical-align: top;
+}
+
+div.schedule th {
+    height: 1cm;
+    font-size: 12pt;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    padding-left: 1.5cm;
+    
+}
+div.schedule td, div.schedule th {
+    font-size: 12pt;
+    text-align: left;
+    padding-left: 1.5cm;
+}
+
+
+div.attendance h1{
+    page-break-before: always;
+    font-size: 20pt;
+    font-family: serif;
+}
+div.attendance h2{
+    text-align: right;
+    position: relative;
+    font-size: 14pt;
+}
+div.attendance span.course {
+    left: 0;
+    position: absolute;
+    padding-bottom: 1cm;
+}
+
+div.attendance table {
+    width: 100%;
+    padding: 0cm;
+    padding-bottom: 0.5cm;
+    table-layout: fixed;
+    border-collapse: collapse;
+    empty-cells: hide;
+    
+}
+div.attendance td.cell {
+    border: solid 1px;
+}
+div.attendance th.month {
+    border-left: 2px solid;
+    border-right: 2px solid;
+    text-align: center;
+}
+div.attendance div.name {
+    text-align: left;
+    width: 5cm;
+}
+
+div.attendance div.day {
+    text-align: center;
+    width: 5%;
+}
+

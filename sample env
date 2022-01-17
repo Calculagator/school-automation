@@ -1,0 +1,29 @@
+# .env file contains variables
+
+# Need a way to consistently get the right account for canvas??
+root_account = 1
+no_accounts = '53'
+
+# Current term
+current_term_name = '2020-2021'
+
+# Current period
+current_period_name = 'Trimester 3'
+
+# specifity current grad year for calculating grade levels - if not specified, the current school year will be used
+# current school year rolls over June 1
+current_grad_year = 2021
+
+### Do you want to count blanks in the gradebook as 0s by default?
+zero_blanks=False
+
+
+## info for civicrm
+crm_host = "crm.example.com"
+crm_site_key = "********************"
+crm_api_key = "********************"
+
+
+## info for canvas
+canvas_host = canvas.example.com
+canvas_access_token = "**********************"

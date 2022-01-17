@@ -1,0 +1,238 @@
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800&display=swap');
+*/
+
+
+@page {
+    size: letter portrait;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-bottom: 1cm;
+    margin-top: 2cm;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 600;
+    
+}
+div.header {
+    page-break-before: always;
+}
+h1 {
+    text-align: right;
+    color: #5A5A5A;
+    font-size: 14pt;
+    font-weight: 800;
+
+}
+h2 {
+    page-break-before: avoid;
+    text-align: right;
+    color: black;
+    font-size:12pt;
+    padding: 0cm;
+    margin: 4pt;
+}
+
+h1, h2 {
+    page-break-after: avoid;
+    font-family: "Open Sans",sans-serif;
+}
+
+table {
+    width: 17.5cm;
+    padding-bottom: 0.5cm;
+}
+table, tr, td, th {
+    border: none;
+    border-collapse: collapse; 
+    font-family: "Open Sans",sans-serif;
+    vertical-align: top;
+}
+
+th {
+    height: 1cm;
+    font-size: 11pt;
+    font-weight: 800;
+    text-align: left;
+    padding-top: 18pt;
+    padding-bottom: 0pt;
+    
+}
+td {
+    font-size: 11pt;
+    padding: 2px;    
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+tr.dark {background-color:  #eee}
+tr.light {background-color:  #fff}
+
+td.attendance{
+    font-family: "Open Sans",sans-serif;
+    padding-left: 0;
+    font-style: italic;
+    font-weight: 300;
+    width: 45%;
+    
+}
+td.att-label{
+    font-size: 8pt;
+    font-weight: 600;
+    color:dimgray;
+    text-align: right;
+    padding-right: 18pt;
+    vertical-align: bottom;
+    width: 30%;
+    
+}
+td.t-absence{
+    font-size: 8pt;
+    padding-left: 4pt;
+    vertical-align: bottom;
+    font-weight: 400;
+    font-style: normal;
+
+}
+td.t-tardy{
+    font-size: 8pt;
+    padding-left: 4pt;
+    vertical-align: bottom;
+    font-weight: 400;
+    font-style: normal;
+
+}
+td.f-absence{
+    font-size: 8pt;
+    font-weight: 800;
+    padding-left: 4pt;
+    vertical-align: bottom;
+    font-style: normal;
+
+}
+td.f-tardy{
+    font-size: 8pt;
+    font-weight: 800;
+    padding-left: 4pt;
+    vertical-align: bottom;
+    font-style: normal;
+
+}
+
+/* All of the Lower School report card specs inside of a 'ls' div */
+
+div.ls_report_card td.course{
+    font-weight: 700;
+    font-size: 11pt;
+    width: 60%;
+    font-style: normal;
+}
+div.ls_report_card td.tgrade{
+    font-weight: 600;
+    width:10%;
+    font-style: normal;
+}
+div.ls_report_card td.fgrade{
+    font-weight: 800;
+    width:10%;
+    font-style: normal;
+}
+div.ls_report_card td.tscore{
+    font-weight: 400;
+    width:10%;
+    font-style: normal;
+}
+div.ls_report_card td.fscore{
+    font-weight: 600;
+    width:10%;
+    font-style: normal;
+}
+td.course-spgc{
+    font-weight:400;
+    font-size:10pt;
+    display: inline-block;
+    width:75%;
+    text-align: right;
+    padding-right: 18pt;
+}
+td.score-spgc {
+    font-size:9pt;
+    vertical-align: middle;
+    text-align: left;
+    display: inline-block;
+}
+div.comments{
+    font-style:oblique;
+    font-size: 11pt; 
+    position:static;
+    font-family: "Open Sans",sans-serif;
+    font-weight: normal;
+    width:100%;
+        
+}
+div.comments p{
+    padding-top:18pt;
+}
+/* All of the Upper School report card specs inside of a 'us' div */
+
+div.us_report_card td.course{
+    font-weight: 700;
+    font-size: 10pt;
+    width: 32%;
+}
+div.us_report_card td.teacher{
+    width: 28%;
+}
+div.us_report_card td.comment{
+    font-style:italic;
+    font-weight:300;
+    font-size: 10pt;
+    padding-right: .4cm;
+}
+div.us_report_card td.tgrade{
+    font-weight: 600;
+    width:10%;
+}
+div.us_report_card td.fgrade{
+    font-weight: 800;
+    width:10%;
+}
+div.us_report_card td.tscore{
+    width:10%;
+    font-weight: 400;
+}
+div.us_report_card td.fscore{
+    font-weight: 600;
+    width:10%;
+}
+
+
+div.cs_report_card td.course{
+    font-weight: 600;
+    width: 32%;
+}
+div.cs_report_card td.teacher{
+    width: 28%;
+}
+div.cs_report_card td.comment{
+    font-style:italic;
+    font-weight:300;
+    font-size: 10pt;
+    padding-right: .4cm;
+}
+div.cs_report_card td.tgrade{
+    font-weight: 600;
+    width:10%;
+}
+div.cs_report_card td.fgrade{
+    font-weight: 800;
+    width:10%;
+}
+div.cs_report_card td.tscore{
+    width:10%;
+    font-weight: 400;
+}
+div.cs_report_card td.fscore{
+    font-weight: 600;
+    width:10%;
+}

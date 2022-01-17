@@ -1,0 +1,12 @@
+# requirements.txt
+## For this small project, most versions aren't important
+
+pandas # used for tabel/data manipulation -esp. in handling attendance records
+requests # for api calls to both canvas and civicrm
+sqlalchemy # db abstraction
+python-dotenv # storing/retrieving variables
+ftfy # fixing unicode/weirness in comments
+# xlwt # pandas uses to export excel xls file
+openpyxl # pandas uses to export excel xlsx file
+pdfkit # uses wkhtmltopdf to convert html to pdf
+pyhtml # simplifies writing the tags for html reports

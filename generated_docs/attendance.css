@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800&display=swap');
+
+@page {
+    size: letter portrait;
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+    margin-bottom: 1cm;
+    margin-top: 2cm;
+    font-family: "Open Sans",sans-serif;
+    
+}
+
+div.attendance h1{
+    page-break-before: always;
+    font-size: 20pt;
+    font-family: serif;
+}
+div.attendance h2{
+    text-align: right;
+    position: relative;
+    font-size: 14pt;
+}
+div.attendance span.course {
+    left: 0;
+    position: absolute;
+    padding-bottom: 1cm;
+}
+
+table {
+    padding: 0cm;
+    padding-bottom: 0.5cm;
+    table-layout: fixed;
+    border-collapse: collapse;
+
+    
+}
+div.attendance td.cell {
+    border: solid 1px;
+    empty-cells: hide;
+}
+div.attendance th.month {
+    border-left: 2px solid;
+    border-right: 2px solid;
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+}
+
+div.attendance div.nameblank {
+    border: none;
+}
+
+div.attendance td.name {
+    text-align: left;
+    border-bottom: 1px dotted;
+    font-family: "Open Sans",sans-serif;
+}
+
+div.attendance div.day {
+    text-align: center;
+    width: .7cm;
+}
+
